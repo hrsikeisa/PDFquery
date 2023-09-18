@@ -9,6 +9,7 @@ import SubscriptionButton from "@/components/SubscriptionButton"
 import { db } from "@/lib/db"
 import { chats } from "@/lib/db/schema"
 import { eq } from "drizzle-orm"
+import Logo from "../../public/logo.png"
 
 export default async function Home() {
   const { userId } = await auth()
@@ -25,7 +26,13 @@ export default async function Home() {
     <div className="w-screen min-h-screen bg-gradient-to-r from-rose-100 to-teal-100">
       <div className="space-y-2 flex flex-col items-center justify-around pt-4">
         <div className="flex flex-col items-center">
-          <Image alt="logo" src="/logo.png" width={100} height={100} />
+          <Image
+            alt="PDF Query Logo"
+            placeholder="blur"
+            src={Logo}
+            width={100}
+            height={100}
+          />
           <p className="pl-6 font-semibold">PDF Query</p>
         </div>
       </div>
