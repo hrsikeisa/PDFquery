@@ -30,3 +30,4 @@ https://github.com/2hari/pdfquery/assets/73457568/bf901a92-d556-4902-add7-7941a6
 - vercel (deployment)
 
 
+NOTE: the application was tested with PDF's of page count < 5. Since Most of the services being used are of free tier, there might be issues if you upload a large PDF file. 
