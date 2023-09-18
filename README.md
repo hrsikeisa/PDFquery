@@ -7,7 +7,7 @@ https://github.com/2hari/pdfquery/assets/73457568/bf901a92-d556-4902-add7-7941a6
 
 ## 💡 Features
 
-- Chat with your PDF with power of vector embeddings 
+- Chat with your PDF using vector embeddings
 - Upload pdfs and have multiple chats 
 - stripe subscriptions 
 - Google OAuth 
